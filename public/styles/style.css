@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.section-form {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-form form {
+  width: 60rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-form form fieldset {
+  width: 80%;
+  -webkit-box-shadow: 0.5rem 0.5rem 2rem rgba(78, 53, 53, 0.5);
+          box-shadow: 0.5rem 0.5rem 2rem rgba(78, 53, 53, 0.5);
+  border-radius: .5rem;
+}
+
+.section-form form fieldset legend {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.section-form form fieldset .controles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+}
+
+.section-form form fieldset .controles input, .section-form form fieldset .controles select {
+  margin: .5rem;
+  padding: .5rem 0;
+  border-radius: .5rem;
+  border: solid 0.1rem rgba(59, 54, 54, 0.5);
+}
+
+.section-form form fieldset .controles input:hover, .section-form form fieldset .controles select:hover {
+  -webkit-box-shadow: 0.5rem 0.5rem 2rem rgba(78, 53, 53, 0.5);
+          box-shadow: 0.5rem 0.5rem 2rem rgba(78, 53, 53, 0.5);
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.section-form form fieldset .controles label {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.section-form form fieldset .controles #send {
+  background-color: olivedrab;
+  color: white;
+  border: 0;
+  padding: 2rem 0;
+}
+
+.section-form form fieldset .controles #send:hover {
+  cursor: pointer;
+}
+
+.section-productos {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-productos table {
+  border: 0.1rem solid #bb622e;
+  border-radius: .5rem;
+  border-collapse: collapse;
+}
+
+.section-productos table thead tr th {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 1rem;
+  border: 0.1rem solid #bb622e;
+}
+
+.section-productos table tbody tr:nth-child(even) {
+  background-color: blanchedalmond;
+}
+
+.section-productos table tbody tr td {
+  border: 0.1rem solid #bb622e;
+  padding: 1rem;
+}
+
+.section-productos table tbody tr td img {
+  width: 3rem;
+}
+
+.section-productos table tbody tr td img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+/*# sourceMappingURL=style.css.map */

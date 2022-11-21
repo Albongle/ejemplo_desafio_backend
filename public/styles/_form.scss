@@ -1,0 +1,54 @@
+.section-form{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    form{
+        width: 60rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        fieldset{
+            legend{
+                color: black;
+                font-weight: bold;
+                font-size: 2rem;
+            }
+            width: 80%;
+            box-shadow: .5rem .5rem 2rem rgba(78, 53, 53, 0.5);
+            border-radius: .5rem;
+            .controles{
+                display: flex;
+                flex-direction: column;
+                margin: 1rem;
+                input,select{
+                    margin: .5rem;
+                    padding: .5rem 0;
+                    border-radius: .5rem;
+                    border: solid .1rem rgba(59, 54, 54, 0.5);
+                    &:hover{
+                        box-shadow: .5rem .5rem 2rem rgba(78, 53, 53, 0.5);
+                        transition-delay: .1s;
+                        transition-duration: 1s;
+                    }
+                }
+                label{
+                    font-size: 1.5rem;
+                    margin: .5rem;
+                }
+                #send{
+                    background-color: olivedrab;
+                    color: white;
+                    border: 0;
+                    padding: 2rem 0;
+                    
+                    &:hover{
+                        cursor: pointer;
+                    }  
+                }
+            }
+        }
+    }
+}
