@@ -41,3 +41,5 @@ io.on("connection", (socket) => {
     io.sockets.emit("new:producto", data);
   });
 });
+
+app.io = io; //agrego socket a la app para usar desde la request y notificar el alta de un nuevo producto
